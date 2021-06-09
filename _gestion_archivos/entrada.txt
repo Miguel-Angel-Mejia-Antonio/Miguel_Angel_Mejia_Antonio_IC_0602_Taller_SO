@@ -1,0 +1,12 @@
+amarillo
+rojo
+azul
+escoba
+mesa
+computadora
+cuchara
+botella
+jugador
+control
+basura
+internet
