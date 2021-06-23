@@ -10,4 +10,5 @@ Paso 1: make
 
 Paso 2: ./servidor 8080
 
+
 Paso 3: ./cliente 10.0.2.15 8080
