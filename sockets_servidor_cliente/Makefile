@@ -3,5 +3,6 @@ all:
 	gcc -Wall -o cliente cliente.c
 
 clean:
-	rm *.o; rm servidor; rm cliente
-
+	rm *.o
+	rm servidor
+	rm cliente
