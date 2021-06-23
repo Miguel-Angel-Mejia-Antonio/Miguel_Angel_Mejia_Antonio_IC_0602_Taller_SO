@@ -2,6 +2,9 @@
 #include <stdlib.h>
 
 int main(){
+
+//Pasos a seguir:
+
 	
 	//Paso 1
 	char x;
