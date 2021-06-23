@@ -1,5 +1,5 @@
 #include "scheduler.h"
-#include <pthread.h>
+
 
 void *reproducir_musica(void *args);
 void hilo1();
