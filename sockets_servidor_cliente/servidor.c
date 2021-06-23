@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
 
 		memset(&servidor, '\0', sizeof(servidor));
 		servidor.sin_family = AF_INET;
-		servidor.sin_port = port;
+		servidor.sin_port = htons(port);
 		servidor.sin_addr.s_addr = INADDR_ANY;
 
 

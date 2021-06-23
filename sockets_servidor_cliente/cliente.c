@@ -26,7 +26,7 @@ int main(int argc, char *argv[]){
 
 	memset(&cliente, '\0', sizeof(cliente));
 	cliente.sin_family = AF_INET;
-	cliente.sin_port = port;
+	cliente.sin_port = htons(port);
 	cliente.sin_addr.s_addr = inet_addr(ip);
 
 	//Establecemos una conexion con el SERVIDOR
